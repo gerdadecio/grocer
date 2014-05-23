@@ -13,12 +13,12 @@ require 'grocer/version'
 
 module Grocer
   Error = Class.new(::StandardError)
-  InvalidFormatError = Class.new(Error)
-  NoGatewayError = Class.new(Error)
-  NoPayloadError = Class.new(Error)
-  NoPortError = Class.new(Error)
-  PayloadTooLargeError = Class.new(Error)
-  CertificateExpiredError = Module.new
+  #InvalidFormatError = Class.new(Error)
+  #NoGatewayError = Class.new(Error)
+  #NoPayloadError = Class.new(Error)
+  #NoPortError = Class.new(Error)
+  #PayloadTooLargeError = Class.new(Error)
+  #CertificateExpiredError = Module.new
   InvalidCommandError = Class.new(Error)
 
   def self.env

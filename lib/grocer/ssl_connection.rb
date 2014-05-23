@@ -55,5 +55,9 @@ module Grocer
       disconnect
       connect
     end
+    
+    def select timeout
+      IO.select([@ssl], [], [@ssl], timeout)
+    end
   end
 end
