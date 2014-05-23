@@ -1,4 +1,6 @@
 require 'grocer'
+require 'grocer/no_gateway_error'
+require 'grocer/no_port_error'
 require 'grocer/ssl_connection'
 
 module Grocer
